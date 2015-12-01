@@ -143,17 +143,6 @@
       }
     },
     {
-      "type":"Microsoft.Network/publicIPAddresses",
-      "location":"[parameters('resourceLocation')]",
-      "apiVersion":"[variables('apiVersion')]",
-      "properties":{
-        "publicIPAllocationMethod":"Dynamic",
-        "dnsSettings":{
-          "domainNameLabel":"[parameters('vmssName')]"
-        }
-      }
-    },
-    {
       "type":"Microsoft.Compute/virtualMachineScaleSets",
       "name":"[parameters('vmssName')]",
       "location":"[parameters('resourceLocation')]",
