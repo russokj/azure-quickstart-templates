@@ -46,16 +46,17 @@
     "vmssName":{
       "type":"string",
       "metadata":{
-        "description":"String used as a base for naming resources (12 characters or less). A hash is prepended to this string for some resources, and resource-specific information is appended."
+        "description":"String used as a base for naming resources (9 characters or less). A hash is prepended to this string for some resources, and resource-specific information is appended."
       },
-      "maxLength":12
+      "maxLength":9
     },
     "subnetName":{
       "type":"string",
       "metadata":{
-        "description":"String used to specify the subnet used by the Scale Set instances"
+        "description":"String used to specify the subnet used by the Scale Set instances (must be between 3 and 24 characters)"
       },
-      "maxLength":12
+      "minLength":3
+      "maxLength":24
     },
     "instanceCount":{
       "type":"int",
