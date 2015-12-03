@@ -55,7 +55,7 @@
       "metadata":{
         "description":"String used to specify the subnet used by the Scale Set instances (must be between 3 and 24 characters)"
       },
-      "minLength":3
+      "minLength":3,
       "maxLength":24
     },
     "instanceCount":{
