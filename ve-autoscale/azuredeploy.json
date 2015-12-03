@@ -64,27 +64,6 @@
       },
       "maxValue":100
     },
-    "instanceDefault":{
-      "type":"int",
-      "metadata":{
-        "description":"Default number of VM instances (100 or less)."
-      },
-      "maxValue":100
-    },
-    "instanceMin":{
-      "type":"int",
-      "metadata":{
-        "description":"Max number of VM instances (100 or less)."
-      },
-      "maxValue":100
-    },
-    "instanceMax":{
-      "type":"int",
-      "metadata":{
-        "description":"Min number of VM instances (100 or less)."
-      },
-      "maxValue":100
-    },
     "adminUsername":{
       "type":"string",
       "metadata":{
@@ -289,9 +268,9 @@
           {
             "name": "Profile1",
             "capacity": {
-              "minimum": "parameters('instanceMin')]"
-              "maximum": "parameters('instanceMax')]",
-              "default": "parameters('instanceDefault')]"
+              "minimum": "1",
+              "maximum": "10",
+              "default": "1"
             },
             "rules": [
               {

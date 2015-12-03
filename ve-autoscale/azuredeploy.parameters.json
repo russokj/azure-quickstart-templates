@@ -17,17 +17,8 @@
     "instanceCount": {
       "value": 1
     },
-    "instanceDefault": {
-      "value": 2
-    },
-    "instanceMin": {
-      "value": 2
-    },
-    "instanceMax": {
-      "value": 10
-    },
     "subnetName": {
-      "value": "subnet-default"
+      "value": "subnet_default"
     },
     "adminUsername": {
       "value": "ubuntu"
