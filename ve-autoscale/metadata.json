@@ -1,0 +1,7 @@
+{
+  "itemDisplayName": "Deploy VM Scale Set with Apache/PHP application(LAP) & AutoScale",
+  "description": "Deploy a VM Scale Set behind a VE load balancer & each VM running an Apache/PHP app that eats CPU cycles. With Autoscale configured Scale Set will scale out & in as needed",
+  "summary": "Deploys a VM Scale Set of Linux VMs with a VE load balancer. Each VMs run a Apache/PHP application that can trigger Auto scaling activity based on defined rules",
+  "githubUsername": "russokj",
+  "dateUpdated": "2015-11-30"
+}
